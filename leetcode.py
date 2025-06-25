@@ -96,10 +96,53 @@
 
 
 
-def mySqrt(x):
+# def mySqrt(x):
+#     for i in x:
+#         if 2 * 2 == x:
+#             print(i)
+#
+#
+# print(mySqrt([8]))
+
+
+# summa = [-23, -45, -43, -12]
+# new_sum = summa[1]
+# for i in summa:
+#     if new_sum < i:
+#         new_sum = i
+#
+# print(new_sum)
+
+# num = [5, 6, 3, 9]
+# new = []
+# for i in num:
+#     if i % 2 == 1:
+#         new.append(i)
+# print(new)
+
+# num = [3, 4, 5, 6, 7]
+# nums = []
+# for i, index in enumerate(num):
+#     nums.append(index*i)
+# print(nums)
+
+
+
+# 0, 4, 10, 18, 28
+
+
+
+def lower_words(x):
+    new_list = []
     for i in x:
-        if 2 * 2 == x:
-            print(i)
+        new = i.lower()
+        if new not in new_list:
+            new_list.append(new)
+    return new_list
 
 
-print(mySqrt([8]))
+print(lower_words(['AuDi', 'MeRS', 'Audi', 'BMw']))
+
+
+
+# ('audi', 'mers', 'bmw')
