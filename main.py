@@ -1,5 +1,3 @@
-
-
 # fruits = ('banana', 'apple', 'blueberry', 'cherry')
 #
 # word = input('Соз жаз: ')
